@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" type="text/css" href="general.css"/>
+            <link rel="stylesheet" type="text/css" href="foodItem.css"/>
+            <script>
+              var currPage = "BQ-sandwich";
+          </script>
+            <title>Item</title>
+        </head>
+        <body>
+          <!--Menu-->
+<nav class="nav-main">
+  <div class="toggleButton" onclick="slideMenu()"></div>
+</nav>
+<aside class= "nav-sidebar">
+  <ul>
+      <li><span>Menu</span> </li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="ChangeAddress.html">Change address</a></li> 
+      <li><a href="helpAndSupport.html">Help and support</a></li>
+      <li><a href="orderlist.html">Change order</a></li>
+  </ul>
+</aside>
+<!--Ends-->
+
+            <div class="container">
+              <div class="itemHeader"> BQ - Sandwich </div>
+
+              <div class="foodImage">
+                <img src="images/sandwich.jpg" alt="hamburger" style="width:100%;height:100%;">
+              </div>
+
+              <div class="foodInfoHeader"> Food Information </div>
+
+              <div class="foodInfo">
+                  <h2>BQ's signature chicken sandwich. Plump juicy white chicken filet,
+                     marinated to perfection, and seasoned just right. Served on a sesame seed
+                     bun with crisp lettuce, creamy mayo and crowned with a pickle slice.</h2>
+              </div>
+
+              <textarea class="addComment">Specific information or comment.</textarea>
+              <a href="options.html"><input type ="button" value = "Add" class="myButton" onclick="addItems(currPage)"></button></a>
+            </div>
+        </body>
+        <script src="main.js"></script>
+    </html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="general.css" />
+    <link rel="stylesheet" type="text/css" href="questionaire.css" />
+    </style>
+    <title>Questionaires</title>
+</head>
+
+<body>
+    <!-- For the Side bar-->
+    <nav class="nav-main">
+        <div class="toggleButton" onclick="slideMenu()"></div>
+    </nav>
+    <aside class="nav-sidebar">
+        <ul>
+            <li><span>Menu</span> </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ChangeAddress.html">Change address</a></li>
+            <li><a href="helpAndSupport.html">Help and support</a></li>
+            <li><a href="orderlist.html">Change order</a></li>
+        </ul>
+    </aside>
+    <!--Side bar ends here-->
+    <div class="questionaires">
+        <form class="questionaireForm">
+            <h3 class="questions">What is your favourite colour?</h3>
+
+            <label>
+                    <input type="radio" id= "blue" name="favourite colour" value="blue">
+                    A) BLUE
+                </label>
+            <label>
+                    <input type="radio" id= "Red" name="favourite colour" value="red">
+                    B) RED
+                </label>
+            <label>
+                    <input type="radio" id= "yellow" name="favourite colour" value="yellow">
+                    C) YELLOW
+                </label>
+            <h3 class="questions">What is your favourite meal of the day?</h3>
+            <input type="radio" id="breakfast" name="favourite meal" value="breakfast">
+            <label for="breakfast">A) BREAKFAST</label>
+            <input type="radio" id="lunch" name="favourite meal" value="lunch">
+            <label for="lunch">B) lUNCH</label>
+            <input type="radio" id="dinner" name="favourite meal" value="dinner">
+            <label for="dinner">C) DINNER</label>
+            <h3 class="questions">How are you feeling today?</h3>
+            <input type="radio" id="happy" name="mood" value="happy">
+            <label for="happy">A) HAPPY</label>
+            <input type="radio" id="sad" name="mood" value="sad">
+            <label for="sad">B) SAD</label>
+            <input type="radio" id="bored" name="mood" value="bored">
+            <label for="bored">C) BORED</label>
+            <h3 class="questions">How is the weather today?</h3>
+            <input type="radio" id="sunny" name="weather" value="sunny">
+            <label for="sunny">A) SUNNY</label>
+            <input type="radio" id="snowy" name="weather" value="snowy">
+            <label for="snowy">B) SNOWY/RAINY </label>
+            <input type="radio" id="cloudy" name="weather" value="cloudy">
+            <label for="cloudy">C) CLOUDY</label>
+        </form>
+
+        <a href="questionairResults.html"><input type="button" class="button" onclick="submit()" value="Submit"></a>
+    </div>
+
+
+</body>
+<script src="main.js"></script>
+
+</html>

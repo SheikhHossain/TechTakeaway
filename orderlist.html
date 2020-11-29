@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="general.css"/>
+        <link rel="stylesheet" type="text/css" href="orderlist.css"/>
+        </style>
+		<title>Order List</title>
+	</head>
+	<body>
+        <!-- For the Side bar-->
+        <nav class="nav-main">
+            <div class="toggleButton" onclick="slideMenu()"></div>
+        </nav>
+        <aside class= "nav-sidebar">
+            <ul>
+                <li><span>Menu</span> </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ChangeAddress.html">Change address</a></li> 
+                <li><a href="helpAndSupport.html">Help and support</a></li>
+                <li><a href="orderlist.html">Change order</a></li>
+            </ul>
+        </aside>
+        <!--Side bar ends here-->
+    <div class = head>Your current orders are :</div>
+    <div id="ordered"></div>
+    <div class="button"><input type="button" onclick="removeAll()" value="X">Remove Current Items</div>
+    <div class="button2"><a href="options.html">Place Order</a></div>
+</body>
+    <script src="main.js"></script> 
+</html>

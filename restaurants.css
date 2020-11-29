@@ -1,0 +1,55 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url("images/restobg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+}
+
+.restName{
+    text-align: center;
+    font-weight: 700;
+    font-size: 300%;
+    margin-top: 5%;
+    left: 50%;
+    text-shadow: #291818 3px 5px 2px, 2px 2px 2px rgba(240,224,209,0);
+    color: rgb(255, 252, 222);
+}
+
+.itemList{
+    border-radius: 10px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.item{
+    display: inline-block;
+    border-radius: 5px;
+    height: 15%;
+}
+
+h2.item{
+    font-weight: 200;
+    color:rgb(255,165,30);
+}
+h3{
+    font-weight: 100;
+    color: blanchedalmond;
+}
+h4{
+    margin-top: 0;
+    font-weight: 100;
+    color: blanchedalmond;
+}

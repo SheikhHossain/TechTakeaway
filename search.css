@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: orange;
+}
+
+.search {
+    width: 10%;
+    box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+    background: linear-gradient(to bottom, #ffab61 5%, #e4685d 100%);
+    background-color: #ffab61;
+    border-radius: 6px;
+    border: 1px solid #d83526;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-shadow: 0px 1px 0px #b23e35;
+    margin-bottom: 10px;
+}
+
+.searchInput {
+    position: abolute;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.help {
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    color: white;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+    padding: 1%;
+    text-shadow: 2px 2px 4px #000000;
+}

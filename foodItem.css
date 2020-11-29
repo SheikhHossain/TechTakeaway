@@ -1,0 +1,100 @@
+
+body{
+  background-image: url("Images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img{
+  /* height: 30%; */
+  border-radius: 5px;
+}
+textarea{
+  background-color: #FFF6E8;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.container{
+  top:10%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  width: 60%;
+  height: 100%;
+}
+.itemHeader{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  position: relative;
+  font-size: 500%;
+  margin-top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(240,224,209,0);
+  color: #F77832;
+}
+.foodImage{
+  border-radius: 10px;
+  margin-left: 20px;
+  top: 100px;
+  width: 30%;
+  height: 250px;
+  position: relative;
+  box-shadow: 5px 5px 15px 5px #000000;
+  /* overflow: hidden; */
+}
+.foodInfoHeader{
+  float: left;
+  width: 40%;
+  height: 10%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  position: relative;
+  font-size: 300%;
+  text-align: left;
+  margin-top: 12%;
+  margin-left: 20px;
+  font-weight: 700;
+  text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(240,224,209,0);
+  color: #F77832;
+}
+.foodInfo{
+  position:relative;
+  width: 40%;
+  height: 20%;
+  margin-top: 18%;
+  margin-left: 20px;
+  line-break: normal;
+  color: #7A4F10;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 100%;
+}
+
+.addComment{
+  float: right;
+  position:absolute;
+  top: 350px;
+  width: 25%;
+  height: 100px;
+  padding: 10px;
+}
+.myButton {
+  position: static;
+  margin-right: 70px;
+  float: right;
+  width: 10%;
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #ffab61 5%, #e4685d 100%);
+	background-color:#ffab61;
+	border-radius:6px;
+	border:1px solid #d83526;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e4685d 5%, #ffab61 100%);
+	background-color:#e4685d;
+}

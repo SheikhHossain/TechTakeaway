@@ -1,0 +1,47 @@
+.questionaires{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.questionaireForm{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    border-radius: 500px;
+    font-weight: bold;
+    background: orange;
+    color: white;
+    cursor: pointer;
+    border: 2px solid orange;
+    margin-top: 10px;
+    opacity: .7;
+}
+body{
+    background: url(images/question.jpeg) center/cover no-repeat fixed;
+    margin-top: auto;
+}
+.questions{
+    padding: 10px 15px;
+}
+label{
+    font-weight: bold;
+    padding-left:0px;
+    padding-right: 50px;
+}
+label:hover{
+    background: #FFF;
+    color: orange;
+    border: none;
+}
+.button{
+    width: 150px;
+    position: absolute;
+    left: 75%;
+    top : 80%;
+}

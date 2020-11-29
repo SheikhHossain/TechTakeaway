@@ -1,0 +1,30 @@
+.CardInformation{
+	background-color: bisque;
+    position: absolute;
+    top: 30%;
+    left: 40%
+}
+.CardHeader{
+	color: red;
+}
+
+.myform .form-group{
+	padding-bottom:15px;
+	
+}
+
+.myform label{
+	display:block;
+}
+
+.myform input[type = "text"], .my-form input[type = "date"]{
+	padding:8px;
+	width:100%;
+}
+
+.button{
+	background-color: black;
+	color:white;
+
+}
+
