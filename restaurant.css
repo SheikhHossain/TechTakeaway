@@ -1,0 +1,34 @@
+.tableHeader{
+    color:white;
+    font-size:50px;
+    padding-left:400px;
+}
+
+.tablePrice{
+    font-size:40px;
+    color:white;
+    padding-left:400px;
+}
+
+.tableItem{
+    position:relative;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    border-radius: 500px;
+    font-weight: bold;
+    background: orange;
+    color: white;
+    cursor: pointer;
+    border: 2px solid orange;
+    margin-top: 10px;
+    margin-left:73%;
+
+
+}
+.tableItem:hover{
+    background: #FFF;
+    color: orange;
+    border: none;
+}

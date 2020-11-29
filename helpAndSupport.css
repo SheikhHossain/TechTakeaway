@@ -1,0 +1,49 @@
+body{
+    background: url(images/helpAndSupport.jpeg) center/cover no-repeat fixed;
+    margin-top: auto;
+}
+.list{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    border-radius: 500px;
+    font-weight: bold;
+    background: orange;
+    color: white;
+    cursor: pointer;
+    border: 2px solid orange;
+    margin-top: 10px;
+}
+.HUL{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.list:hover{
+    background: #FFF;
+    color: orange;
+    border: none;
+}
+.list pulsate{
+    animation: pulsate 3s ease-in;
+    animation-iteration-count:1 ;
+    opacity: .3;
+    color: #000; 
+}
+@-webkit-keyframes pulsate{
+    0%{
+        opacity: .3;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 3;
+    }
+}

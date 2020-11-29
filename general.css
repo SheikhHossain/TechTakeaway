@@ -1,20 +1,22 @@
-.addressBody{
+.addressBody {
     position: absolute;
     top: 30%;
     left: 40%;
-    
 }
-.addressHeader{
+
+.addressHeader {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
 }
-.nav-main{
+
+.nav-main {
     width: 100%;
-    top:0;
+    top: 0;
     left: 0px;
     height: 60px;
     display: flex;
@@ -22,18 +24,36 @@
     z-index: 10000;
     position: fixed;
 }
-.toggleButton{
+
+.toggleButton {
     left: 0px;
     width: 70px;
     height: 100%;
-    background-color: antiquewhite;
+    background-color: #24292F;
     background-image: url("Images/menu.jpg");
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: center;
     cursor: pointer;
 }
-.nav-sidebar{
+
+.button {
+    width: 30%;
+    box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+    background: linear-gradient(to bottom, #ffab61 5%, #e4685d 100%);
+    background-color: #ffab61;
+    border-radius: 6px;
+    border: 1px solid #d83526;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-shadow: 0px 1px 0px #b23e35;
+}
+
+.nav-sidebar {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -44,13 +64,16 @@
     z-index: 1000;
     transition: all 0.5s ease-in-out;
 }
-.nav-sidebar ul{
+
+.nav-sidebar ul {
     padding-top: 15px;
     overflow: hidden;
     visibility: hidden;
     transition: all 0.5s ease-in-out;
 }
-.nav-sidebar ul span , .nav-sidebar ul li a{
+
+.nav-sidebar ul span,
+.nav-sidebar ul li a {
     display: block;
     height: 60px;
     padding: 0 10px;
@@ -62,14 +85,17 @@
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
-.nav-sidebar ul li a:hover{
+
+.nav-sidebar ul li a:hover {
     background-color: #222;
 }
-body{
+
+body {
     background: url(images/indexImage.jpg) center/cover no-repeat fixed;
     margin-top: auto;
 }
-.indexTitle{
+
+.indexTitle {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,11 +105,13 @@ body{
     width: 100%;
     height: 100%;
 }
-.indexTitle .title{
+
+.indexTitle .title {
     color: white;
     font-size: 50px;
 }
-.questionaire{
+
+.questionaire {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
@@ -96,25 +124,81 @@ body{
     border: 2px solid orange;
     margin-top: 10px;
 }
-.questionaire:hover{
+
+.questionaire:hover {
     background: #FFF;
     color: orange;
     border: none;
 }
-.pulsate{
+
+.pulsate {
     animation: pulsate 3s ease-in-out;
-    animation-iteration-count:infinite ;
+    animation-iteration-count: infinite;
     opacity: .3;
-    color: #000; 
+    color: #000;
 }
-@-webkit-keyframes pulsate{
-    0%{
+
+.buttonout {
+    width: 30%;
+    margin-bottom: 15px;
+    box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+    background: linear-gradient(to bottom, #ffab61 5%, #e4685d 100%);
+    background-color: #ffab61;
+    border-radius: 6px;
+    border: 1px solid #d83526;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-shadow: 0px 1px 0px #b23e35;
+    margin-bottom: 20px;
+}
+
+.checkout {
+    background: url(images/checkout.jpg) center/cover no-repeat fixed;
+}
+
+.swipe {
+    position: absolute;
+    bottom: 50px;
+}
+
+@-webkit-keyframes pulsate {
+    0% {
         opacity: .3;
     }
-    50%{
+    50% {
         opacity: 1;
     }
-    100%{
+    100% {
         opacity: 3;
     }
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: orange;
 }

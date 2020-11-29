@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="general.css" />
+    <link rel="stylesheet" type="text/css" href="Changeaddress.css" />
+    <title>Address</title>
+</head>
+
+<body>
+    <div class="addressBody">
+        <h1 class="addressHeader">Enter your address:</h1>
+        <form name="myForm" class="myform">
+            <div class="form-group">
+                <input type="text" name="AddressLine1" size="42" placeholder="Address Line 1*" required /></div>
+            <div class="form-group">
+                <input type="text" name="AddressLine2" size="42" placeholder="Address Line 2(optional)" /></div>
+            <div class="form-group">
+                <input type="text" name="province" size="20" placeholder="Province*" required />
+            </div>
+            <div class="form-group">
+                <input type="text" name="Country" size="20" placeholder="Country*" required /></div>
+            <div class="form-group">
+                <input type="text" name="Postal code" size="20" placeholder="Postal code *" required />
+            </div>
+            <div class="form-group">
+                <input type="text" name="Phone number" size="20" placeholder="Phone number *" required /></div>
+        </form>
+        <a href="index.html"><button class=" button " onclick="save()">Save</button></a>
+    </div>
+    <!--Say hello to menu-->
+    <nav class="nav-main ">
+        <div class="toggleButton " onclick="slideMenu() "></div>
+    </nav>
+    <aside class="nav-sidebar ">
+        <ul>
+            <li><span>Menu</span> </li>
+            <li><a href="index.html ">Home</a></li>
+            <li><a href="ChangeAddress.html ">Change address</a></li>
+            <li><a href="helpAndSupport.html ">Help and support</a></li>
+            <li><a href="orderlist.html ">Change order</a></li>
+        </ul>
+    </aside>
+    <!--Say bye to menu-->
+</body>
+<script src="main.js "></script>
+
+</html>
