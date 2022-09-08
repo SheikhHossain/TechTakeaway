@@ -30,7 +30,7 @@
     width: 70px;
     height: 100%;
     background-color: #24292F;
-    background-image: url("Images/menu.jpg");
+    background-image: url("./assets/Images/menu.jpg");
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: center;
@@ -91,7 +91,7 @@
 }
 
 body {
-    background: url(images/indexImage.jpg) center/cover no-repeat fixed;
+    background: url(./assets/Images/indexImage.jpg) center/cover no-repeat fixed;
     margin-top: auto;
 }
 
@@ -109,6 +109,8 @@ body {
 .indexTitle .title {
     color: white;
     font-size: 50px;
+    text-align: center;
+    padding-left: 5rem;
 }
 
 .questionaire {
